@@ -1,0 +1,9 @@
+.singlePost {
+    flex: 9;
+    background-color: #ccd6db;
+  }
+  
+  .singlePostWrapper {
+    padding: 20px;
+    padding-right: 0;
+  }
