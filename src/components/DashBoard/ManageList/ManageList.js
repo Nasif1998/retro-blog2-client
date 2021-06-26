@@ -4,7 +4,7 @@ import { useHistory } from 'react-router';
 const ManageList = ({manage}) => {
     const history = useHistory();
     const deleteEvent = (id, blog) => {
-        const url = `http://localhost:5056/deleteBlog/${id}`
+        const url = `https://gentle-island-52298.herokuapp.com/deleteBlog/${id}`
         fetch(url, {
             method: 'DELETE'
         })

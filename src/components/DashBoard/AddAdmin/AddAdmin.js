@@ -13,7 +13,7 @@ const AddAdmin = () => {
             password: data.password
         };
 
-        const url = `http://localhost:5056/addAdmin`;
+        const url = `https://gentle-island-52298.herokuapp.com/addAdmin`;
 
         console.log(eventData)
 

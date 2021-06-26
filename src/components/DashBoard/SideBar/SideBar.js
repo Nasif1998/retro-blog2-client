@@ -11,7 +11,7 @@ const SideBar = () => {
     const [isAdmin, setIsAdmin] = useState(false);
 
     useEffect(() => {
-        fetch('http://localhost:5056/isAdmin', {
+        fetch('https://gentle-island-52298.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email } && {password: loggedInUser.password})
@@ -45,7 +45,7 @@ const SideBar = () => {
                     </li>
                     <li>
                         <Link to="/manageBlogs" className="text-white" >
-                            <FontAwesomeIcon icon={faTasks} /> <span>Manage Services</span>
+                            <FontAwesomeIcon icon={faTasks} /> <span>Manage Blogs</span>
                         </Link>
                     </li>
                 </div>}

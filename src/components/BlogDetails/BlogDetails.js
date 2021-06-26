@@ -7,7 +7,7 @@ const BlogDetails = () => {
     const [oneBlog, setOneBlog] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5056/blogs/${_id}`)
+        fetch(`https://gentle-island-52298.herokuapp.com/blogs/${_id}`)
             .then(res => res.json())
             .then(data => setOneBlog(data))
     }, [_id])

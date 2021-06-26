@@ -5,7 +5,7 @@ import SideBar from '../SideBar/SideBar';
 const ManageBlogs = () => {
     const [manages, setManages] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5056/manageBlogs')
+        fetch('https://gentle-island-52298.herokuapp.com/manageBlogs')
             .then(res => res.json())
             .then(data => setManages(data))
     }, [])
@@ -13,7 +13,7 @@ const ManageBlogs = () => {
         <section className="container-fluid row">
             <SideBar></SideBar>
             <div className="col-md-10 p-4 pr-5" style={{ position: "absolute", right: 0, backgroundColor: "#F4FDFB" }}>
-                <h2>Services: {manages.length}</h2>
+                <h2>Blogs: {manages.length}</h2>
                 <ManageList manage={manages}></ManageList>
 
             </div>

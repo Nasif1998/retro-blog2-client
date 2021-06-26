@@ -13,7 +13,7 @@ const AddBlogs = () => {
             content: data.content,
             imageURL: imageURL
         };
-        const url = `http://localhost:5056/addBlogs`;
+        const url = `https://gentle-island-52298.herokuapp.com/addBlogs`;
 
         console.log(blogData)
 
