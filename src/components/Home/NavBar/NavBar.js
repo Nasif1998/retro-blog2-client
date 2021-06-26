@@ -50,22 +50,25 @@ const Navbar = () => {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <ul className="topList">
-                            <li className="topListItem">
-                                <Link className="link" to="/">
+                        <ul className="topList navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li className="topListItem nav-item active">
+                                <Link className="link nav-link" to="/">
                                     HOME
                        </Link>
                             </li>
                             <li className="topListItem">
                                 <a href="#about">ABOUT</a>
                             </li>
-                            <li className="topListItem"><a href="#contact">CONTACT</a></li>
-                            <li className="topListItem">
+                            <li className="topListItem nav-item">
+                                <a href="#blogs">BLOGS</a>
+                            </li>
+                            <li className="topListItem nav-item"><a href="#contact">CONTACT</a></li>
+                            <li className="topListItem nav-item">
                                 <Link className="link" to="/dashboard">
                                     DashBoard
                         </Link>
                             </li>
-                            <li className="topListItem">LOGOUT</li>
+                            <li className="topListItem nav-item">LOGOUT</li>
                         </ul>
                     </div>
                 </nav>

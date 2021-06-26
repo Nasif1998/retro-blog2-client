@@ -13,7 +13,7 @@ const AddBlogs = () => {
             content: data.content,
             imageURL: imageURL
         };
-        const url = `http://localhost:5055/addBlogs`;
+        const url = `http://localhost:5056/addBlogs`;
 
         console.log(blogData)
 
@@ -66,6 +66,8 @@ const AddBlogs = () => {
                     <br /> */}
                     <input name="content" defaultValue="Content" ref={register} />
                     <br />
+                    {/* <textarea rows="4" cols="100" {...register('content', { required: true })} />
+                    <br /> */}
 
                     {/* <input name="from" defaultValue="From" ref={register} />
                     <br /> */}

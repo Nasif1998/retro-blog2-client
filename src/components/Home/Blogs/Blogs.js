@@ -18,7 +18,7 @@ const Blogs = () => {
                 <div className="container">
                     <div className="section-header">
                         <h5 style={{ textAlign: 'center' }} className="text-primary text-uppercase">Blogs</h5>
-                        <h1 style={{ textAlign: 'center' }}>What Our Client <br /> Says </h1>
+                        <h1 style={{ textAlign: 'center' }}>What My Mind <br /> Says </h1>
                     </div>
                     <div className="card-deck mt-5">
                         <Container>
