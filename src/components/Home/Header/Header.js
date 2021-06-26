@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Header.css";
+import tree from '../../../images/tree.jpg';
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
               <span className="headerTitleSm">Mind & Self</span>
               <span className="headerTitleLg">Blog</span>
             </div>
-            <img className="headerImg" src="http://rachananandakumar.com/tree.jpg" alt="" srcset="" />
+            <img className="headerImg" src={tree} alt="" srcset="" />
         </div>
     );
 };
